@@ -7,6 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    Hello world!
+    <?php
+        global $con;
+        $query = "SELECT * FROM users";
+        $sth = mysqli_query($con, $query);
+        $rows = array();
+        while($r = mysqli_fetch_assoc($sth)){
+            $rows[] = $r;
+        }
+
+        echo json_encode($rows);
+    ?>
 </body>
 </html>
