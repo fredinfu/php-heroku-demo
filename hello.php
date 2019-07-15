@@ -9,7 +9,7 @@
 <body>
     <?php
         global $con;
-        $query = "SELECT * FROM users";
+        $query = "SELECT * FROM userss";
         $sth = mysqli_query($con, $query);
         $rows = array();
         while($r = mysqli_fetch_assoc($sth)){
