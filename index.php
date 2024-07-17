@@ -1,6 +1,6 @@
 <?php header('Access-Control-Allow-Headers: X-Requested-With, origin, content-type'); ?>
 <?php
-	$t = "Super Samus Blue";//isset($_GET["t"]) ? $_GET["t"] : ""
+	$t = "Super Blue Robocop";//isset($_GET["t"]) ? $_GET["t"] : ""
 	$d = "Super NES";
 	$img = "https://upload.wikimedia.org/wikipedia/en/f/f1/Mega_Man_X_Coverart.png";
 ?>
